@@ -1,0 +1,13 @@
+[
+  {
+    "name": "${container_name}",
+    "image": "641278899178.dkr.ecr.ap-southeast-1.amazonaws.com/springboot-service-1",
+    "essential": true,
+    "portMappings": [
+      {
+        "protocol": "tcp",
+        "containerPort": ${container_port}
+      }
+    ]
+  }
+]
